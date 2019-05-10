@@ -1,0 +1,21 @@
+﻿server:
+ port: 7002
+spring:
+ profiles: dev
+ application:
+  name: config-client
+eureka:
+ client:
+  service-url:
+   defaultZone: http://peer1:8000/eureka/
+---
+server:
+ port: 7003
+spring:
+ profiles: test
+ application:
+  name: config-client
+eureka:
+ client:
+  service-url:
+   defaultZone: http://peer1:8000/eureka/

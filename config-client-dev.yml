@@ -8,7 +8,7 @@ server:
 spring:
  profile: dev
  application:
-  name: config-client
+  name: config-client-2333
 eureka:
  client:
   service-url:
